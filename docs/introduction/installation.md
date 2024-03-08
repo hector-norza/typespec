@@ -8,13 +8,12 @@ slug: /
 
 ## Requirements
 
-Install [Node.js 20 LTS](https://nodejs.org/en/download/) and ensure you can run the `npm` command in a command prompt:
+Install [Node.js 20 LTS](https://nodejs.org/en/download/) and ensure that you can run the `npm` command in a command prompt:
 
 ```bash
 npm --version
 ```
-
-We recommend using npm 7+. To update npm, run `npm install -g npm`
+It is recommended to use npm 7+ version. To update npm, run `npm install -g npm`.
 
 ## Install tsp
 
@@ -26,7 +25,7 @@ npm install -g @typespec/compiler
 
 ## Install the VS and VSCode extensions
 
-TypeSpec provides extension for the following editors:
+TypeSpec provides extensions for the following editors:
 
 - [Visual Studio Code](./editor/vscode.md)
 - [Visual Studio](./editor/vs.md)
@@ -41,13 +40,13 @@ tsp init
 
 This will prompt you with a few questions. Pick the `Generic REST API` template, your project name, and select the `@typespec/openapi3` library.
 
-Next, you can install the dependencies.
+Next, you can install the project dependencies.
 
 ```bash
 tsp install
 ```
 
-You should now have a basic TypeSpec project setup with a structure looking like this:
+You should now have a basic TypeSpec project set up with a structure looking like this:
 
 ```bash
 package.json      # Package manifest defining your TypeSpec project as a Node package.
